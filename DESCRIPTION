@@ -1,0 +1,23 @@
+Package: LRItool
+Type: Package
+Title: Designing Flu LRI Mutants On LRIscan Results
+Version: 0.0.0.9000
+Authors@R: person("Haogao", "Gu", email = "hggu@connect.hku.hk", role = c("aut", "cre"))
+Description: In order to study the effects of potential long-range RNA-RNA interaction(LRI)
+    in Influenza A virus. We developed this project locating the LRI regions from the result 
+    of LRIscan, moreover, we introduced silent mutations in target LRI regions to design 
+    mutants of interest for further laboratory analysis.    
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    dplyr,
+    readr
+RoxygenNote: 6.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/Koohoko/LRIflu
+BugReports: http://github.com/Koohoko/LRIflu/issues
