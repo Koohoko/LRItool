@@ -13,11 +13,13 @@ LazyData: true
 Imports: 
     ggplot2,
     dplyr,
-    readr
+    readr,
+    seqinr,
+    stringr
 RoxygenNote: 6.1.1
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-URL: http://github.com/Koohoko/LRIflu
-BugReports: http://github.com/Koohoko/LRIflu/issues
+URL: http://github.com/Koohoko/LRItool
+BugReports: http://github.com/Koohoko/LRItool/issues
